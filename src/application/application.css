@@ -1,0 +1,70 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+@font-face {
+	src: url(../../view.assets/PoiretOne-Regular.ttf);
+}
+*{
+	-fx-font-family: 'Poiret One';
+}
+
+.cabezero {
+	-fx-background-image: url("../../view.assets/sky.jpeg");
+	-fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.btnLetMeIn{
+	-fx-background-color: #FFA500;
+	-fx-text-fill: #FFFFFF;
+}
+
+.btnLetMeIn:hover{
+	-fx-background-color: #E68800;
+	-fx-text-fill: #FFFFFF;
+}
+
+.pie {
+	-fx-background-color:#FFA500;
+}
+
+.pane1 {
+	-fx-background-image: url('../../view.assets/img1.jpg');
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
+.pane2 {
+	-fx-background-image: url('../../view.assets/img2.jpg');
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
+.pane3 {
+	-fx-background-image: url('../../view.assets/img3.jpg');
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
+.pane4 {
+	-fx-background-image: url('../../view.assets/img4.jpg');
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat;
+}
+
+.titulo{
+	-fx-font-size:24px;
+}
+
+.vBoxRegistro{
+	-fx-background-radius: 10px;
+	-fx-background-color:  #FA7268;
+}
+
+.btn2{
+	-fx-background-color: #007cc2;
+	-fx-text-fill: #FFFFFF;
+}
+
+.btn2:hover{
+	-fx-background-color: #4682b4;
+	-fx-text-fill: #FFFFFF;
+	
+}
+
